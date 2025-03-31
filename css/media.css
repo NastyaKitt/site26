@@ -1,0 +1,619 @@
+@media (max-width: 1440px) {
+    .heroSection {
+        & span {
+            width: 60%;
+        }
+    }
+    .heroSection {
+        & h1 {
+            margin-bottom: 10rem;
+        }
+    }
+    .price {
+        & .classic {
+            margin: 5rem 0px;
+            width: 30%;
+        }
+    }
+    .price {
+        & .priceList {
+            & .priceItem {
+                width: 32%;
+            }
+        }
+    }
+    .whyMe {
+        & .banner {
+            height: 35rem;
+        }
+    }
+    .whyMe {
+        & .banner {
+            & img {
+                bottom: -10rem;
+            }
+        }
+    }
+}
+@media (max-width: 1024px) {
+    html {
+        font-size: 14px;
+    }
+    header {
+        padding: 1rem 5rem;
+    }
+    header {
+        padding: 1rem 2rem;
+
+        & span {
+            & p {
+                margin: 0rem 1rem;
+            }
+        }
+    }
+    .price {
+        margin: 1rem 2rem;
+    }
+    .heroSection {
+        margin: 1rem 2rem;
+    }
+    section {
+        margin: 0 2rem;
+    }
+    .problem {
+        margin: 1rem 2rem;
+    }
+    .whyMe {
+        margin: 1rem 2rem;
+    }
+    .whyMe {
+        & .banner {
+            & span {
+                & h1 {
+                    width: 75%;
+                }
+                & h2 {
+                    width: 60%;
+                }
+            }
+        }
+    }
+    .poradok {
+        margin: 1rem 2rem;
+    }
+    .poradok {
+        & span {
+            & button {
+                width: 90%;
+            }
+        }
+    }
+    form {
+        margin: 1rem 2rem;
+        height: 45rem;
+    }
+    .review {
+        & .reviewList {
+            & .reviewItem {
+                & p {
+                    font-size: 1.25rem;
+                }
+            }
+        }
+    }
+    .brands {
+        margin: 1rem 2rem;
+    }
+    .review {
+        margin: 1rem 2rem;
+    }
+    footer {
+        margin: 0 3rem;
+        padding: 2rem;
+    }
+}
+@media (max-width: 768px) {
+    header {
+        & span {
+            align-items: center;
+            flex-direction: column;
+        }
+    }
+    .heroSection {
+        & span {
+            width: 100%;
+        }
+    }
+    .heroSection {
+        & span {
+            & button {
+                margin-top: 4rem;
+            }
+        }
+    }
+    header {
+        & span {
+            & p {
+                margin: 1rem 0rem;
+            }
+        }
+    }
+    header {
+        & span {
+            & button {
+                padding: 0;
+            }
+        }
+    }
+    .price {
+        & .classic {
+            margin: 4rem 0px;
+            width: 50%;
+        }
+    }
+    .price {
+        & h2 {
+            font-size: 2rem;
+        }
+    }
+    .price {
+        & .priceList {
+            & .priceItem {
+                width: 49%;
+            }
+        }
+    }
+    .problem {
+        & span {
+            & h1 {
+                text-align: left;
+                font-size: 2rem;
+            }
+        }
+    }
+    .problem {
+        & .problemList {
+            & .problemItem {
+                width: 95%;
+            }
+        }
+    }
+    .problem {
+        & span {
+            & .classic {
+                width: 100%;
+            }
+        }
+    }
+    .whyMe {
+        & .banner {
+            & img {
+                right: 0rem;
+                bottom: -8rem;
+            }
+        }
+    }
+    .whyMe {
+        & .whyList {
+            & .whyItem {
+                height: auto;
+            }
+        }
+    }
+    .poradok {
+        & .poradokList {
+            & .poradokItem {
+                & p {
+                    font-size: 1rem;
+                }
+            }
+        }
+    }
+    .poradok {
+        & span {
+            & h1 {
+                font-size: 2rem;
+            }
+        }
+    }
+    form {
+        height: auto;
+        flex-direction: column;
+        align-items: center;
+    }
+    form {
+        & .forma {
+            width: 100%;
+            height: 100%;
+        }
+    }
+    form {
+        
+        & span {
+            width: 100%;
+            text-align: center;
+            margin-bottom: 3rem;
+        }
+    }
+    .review {
+        & .reviewList {
+            & .reviewItem {
+                width: 49%;
+                height: auto;
+            }
+        }
+    }
+    .review {
+        & .reviewList {
+            & .reviewItem {
+                & span {
+                    flex-direction: column;
+                    align-items: flex-start;
+                    & span {
+                        display: flex;
+                        flex-direction: row;
+                        margin: 1rem 0;
+                    }
+                }
+            }
+        }
+    }
+    .popupPolit {
+        & .politica {
+            width: 75%;
+            height: 60%;
+            background-color: #fff;
+            padding: 2rem;
+            overflow-y: scroll;
+            border-radius: 1rem;
+        }
+    }
+    .review {
+        & .reviewList {
+            & .reviewItem {
+                padding: 1.5rem;
+            }
+        }
+    }
+}
+@media (max-width: 425px) {
+    html {
+        font-size: 12px;
+    }
+    header {
+        & span {
+            & p {
+                font-size: 1.25rem;
+            }
+        }
+    }
+    header {
+        & span {
+            & a {
+                font-size: 1.25rem;
+            }
+        }
+    }
+    header {
+        & span {
+            & button {
+                font-size: 1.25rem;
+            }
+        }
+    }
+    header {
+        & span {
+            height: 100%;
+            display: flex;
+            flex-direction: column;
+            justify-content: space-between;
+            & button {
+                padding: 0.5rem;
+                & svg {
+                    width: 2rem;
+                    height: 2rem;
+                }
+            }
+        }
+    }
+    .heroSection {
+        padding: 1rem;
+        & span {
+            & span {
+                & ul {
+                    & li {
+                        color: #fff;
+                        font-size: 1.25rem;
+                        padding-bottom: 0.5rem;
+                    }
+                }
+            }
+        }
+    }
+    .price {
+        & .priceList {
+            & .priceItem {
+                width: 100%;
+            }
+        }
+    }
+    .price {
+        & button {
+            font-size: 1.25rem;
+        }
+    }
+    .problem {
+        flex-direction: column-reverse;
+        align-items: center;
+        padding: 0;
+    }
+    .problem {
+        & span {
+            width: 100%;
+        }
+    }
+    .problem {
+        & .problemList {
+            width: 100%;
+            margin-top: 1rem;
+        }
+    }
+    .problem {
+        & .problemList {
+            & .problemItem {
+                width: 100%;
+            }
+        }
+    }
+    .price {
+        padding: 0;
+    }
+    .whyMe {
+        padding: 0;
+    }
+    .whyMe {
+        & .banner {
+            & span {
+                & h1 {
+                    font-size: 2rem;
+                    width: 100%;
+                }
+            }
+        }
+    }
+    .whyMe {
+        & .banner {
+            & span {
+                & h2 {
+                    font-size: 1.5rem;
+                    width: 100%;
+                }
+            }
+        }
+    }
+    .whyMe {
+        & .banner {
+            & button {
+                width: 75%;
+                z-index: 9;
+            }
+        }
+    }
+    .whyMe {
+        & .banner {
+            & img {
+                width: 15rem;
+            }
+        }
+    }
+    .poradok {
+        padding: 0;
+        flex-direction: column;
+    }
+    .poradok {
+        & .poradokList {
+            width: 100%;
+            margin-top: 1rem;
+        }
+    }
+    .poradok {
+        & .poradokList {
+            & .poradokItem {
+                & p {
+                    font-size: 1.25rem;
+                }
+            }
+        }
+    }
+    form {
+        & .forma {
+            padding: 1rem;
+        }
+    }
+    .brands {
+        padding: 0;
+    }
+    .brands {
+        & .brandList {
+            flex-direction: column;
+            flex-wrap: wrap;
+        }
+    }
+    .review {
+        padding: 0;
+        & .reviewList {
+            flex-direction: column;
+            align-items: center;
+        }
+    }
+    .review {
+        & .reviewList {
+            & .reviewItem {
+                width: 100%;
+                height: auto;
+            }
+        }
+    }
+    .review {
+        & .buttons {
+            & button {
+                width: 10rem;
+                height: 6rem;
+                & svg {
+                    width: 3rem;
+                    height: 3rem;
+                }
+            }
+        }
+    }
+    .review {
+        & .reviewList {
+            & .reviewItem {
+                & span {
+                    flex-direction: row;
+                    & span {
+                        & svg {
+                            width:  1.5rem ;
+                            height: 1.5rem  ;
+                        }
+                    }
+                }
+            }
+        }
+    }
+    footer {
+        margin: 0 2rem;
+        padding: 2rem;
+    }
+    
+    .popupForm {
+        & form {
+            box-shadow: 0px 0px 17px 0px #fff;
+            width: -webkit-fill-available;
+            margin: 0 1rem;
+        }
+    }
+    
+    
+}
+@media (max-width: 375px) {
+    header {
+        flex-direction: column;
+        align-items: center;
+        & span {
+            & h1 {
+                font-size: 1.5rem;
+                margin-right: 0;
+            }
+        }
+    }
+    .whyMe {
+        & .whyList {
+            & .whyItem {
+                width: 100%;
+            }
+        }
+    }
+    
+}
+@media (max-width: 320px) {
+    html {
+        font-size: 10px;
+    }
+}
+@media (max-width: 1920px) {
+    
+}
+@media (max-width: 1920px) {
+    
+}
+@media (max-width: 1920px) {
+    
+}
+@media (max-width: 1920px) {
+    
+}
+@media (max-width: 1920px) {
+    
+}
+@media (max-width: 1920px) {
+    
+}
+@media (max-width: 1920px) {
+    
+}
+@media (max-width: 1920px) {
+    
+}
+@media (max-width: 1920px) {
+    
+}
+@media (max-width: 1920px) {
+    
+}
+@media (max-width: 1920px) {
+    
+}
+@media (max-width: 1920px) {
+    
+}
+@media (max-width: 1920px) {
+    
+}
+@media (max-width: 1920px) {
+    
+}
+@media (max-width: 1920px) {
+    
+}
+@media (max-width: 1920px) {
+    
+}
+@media (max-width: 1920px) {
+    
+}
+@media (max-width: 1920px) {
+    
+}
+@media (max-width: 1920px) {
+    
+}
+@media (max-width: 1920px) {
+    
+}
+@media (max-width: 1920px) {
+    
+}
+@media (max-width: 1920px) {
+    
+}
+@media (max-width: 1920px) {
+    
+}
+@media (max-width: 1920px) {
+    
+}
+@media (max-width: 1920px) {
+    
+}
+@media (max-width: 1920px) {
+    
+}
+@media (max-width: 1920px) {
+    
+}
+@media (max-width: 1920px) {
+    
+}
+@media (max-width: 1920px) {
+    
+}
+@media (max-width: 1920px) {
+    
+}
+@media (max-width: 1920px) {
+    
+}
+@media (max-width: 1920px) {
+    
+}
