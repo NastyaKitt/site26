@@ -450,7 +450,7 @@
         & .reviewList {
             & .reviewItem {
                 width: 100%;
-                height: auto;
+                height: 20rem;
             }
         }
     }
@@ -491,9 +491,20 @@
             box-shadow: 0px 0px 17px 0px #fff;
             width: -webkit-fill-available;
             margin: 0 1rem;
+            padding: 1rem;
         }
     }
-    
+    .popupPolit {
+        & .politica {
+            width: 90%;
+            height: 70%;
+            background-color: #fff;
+            padding: 2rem;
+            overflow-y: scroll;
+            border-radius: 1rem;
+        }
+    }
+
     
 }
 @media (max-width: 375px) {
@@ -514,106 +525,26 @@
             }
         }
     }
+    form {
+        & .forma {
+            & span {
+                & input {
+                    height: 5rem;
+                }
+            }
+        }
+    }
+    form {
+        & .forma {
+            & .ok {
+                height: 6rem;
+            }
+        }
+    }
     
 }
 @media (max-width: 320px) {
     html {
         font-size: 10px;
     }
-}
-@media (max-width: 1920px) {
-    
-}
-@media (max-width: 1920px) {
-    
-}
-@media (max-width: 1920px) {
-    
-}
-@media (max-width: 1920px) {
-    
-}
-@media (max-width: 1920px) {
-    
-}
-@media (max-width: 1920px) {
-    
-}
-@media (max-width: 1920px) {
-    
-}
-@media (max-width: 1920px) {
-    
-}
-@media (max-width: 1920px) {
-    
-}
-@media (max-width: 1920px) {
-    
-}
-@media (max-width: 1920px) {
-    
-}
-@media (max-width: 1920px) {
-    
-}
-@media (max-width: 1920px) {
-    
-}
-@media (max-width: 1920px) {
-    
-}
-@media (max-width: 1920px) {
-    
-}
-@media (max-width: 1920px) {
-    
-}
-@media (max-width: 1920px) {
-    
-}
-@media (max-width: 1920px) {
-    
-}
-@media (max-width: 1920px) {
-    
-}
-@media (max-width: 1920px) {
-    
-}
-@media (max-width: 1920px) {
-    
-}
-@media (max-width: 1920px) {
-    
-}
-@media (max-width: 1920px) {
-    
-}
-@media (max-width: 1920px) {
-    
-}
-@media (max-width: 1920px) {
-    
-}
-@media (max-width: 1920px) {
-    
-}
-@media (max-width: 1920px) {
-    
-}
-@media (max-width: 1920px) {
-    
-}
-@media (max-width: 1920px) {
-    
-}
-@media (max-width: 1920px) {
-    
-}
-@media (max-width: 1920px) {
-    
-}
-@media (max-width: 1920px) {
-    
 }
